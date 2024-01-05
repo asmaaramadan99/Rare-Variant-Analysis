@@ -1,3 +1,4 @@
+library(Ravages)
 # Import data in a bed matrix
 x <- as.bed.matrix(x=LCT.matrix.bed, fam=LCT.matrix.fam, bim=LCT.snps)
 # Add population
